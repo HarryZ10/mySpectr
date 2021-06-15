@@ -25,6 +25,7 @@
 		86C63C60266DCC9700D01445 /* YanoneKaffeesatz-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86C63C5A266DCC9700D01445 /* YanoneKaffeesatz-Light.ttf */; };
 		86C63C61266DCC9700D01445 /* YanoneKaffeesatz-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86C63C5B266DCC9700D01445 /* YanoneKaffeesatz-Medium.ttf */; };
 		86C90E462676C399001AC22F /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C90E452676C399001AC22F /* MapViewController.swift */; };
+		86CA408B26788E7A0051B121 /* ProfileVIewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA408A26788E7A0051B121 /* ProfileVIewController.swift */; };
 		86F0850C266DC32D00DD7AE4 /* Barlow-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86F084FA266DC32C00DD7AE4 /* Barlow-MediumItalic.ttf */; };
 		86F0850D266DC32D00DD7AE4 /* Barlow-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86F084FB266DC32C00DD7AE4 /* Barlow-SemiBold.ttf */; };
 		86F0850E266DC32D00DD7AE4 /* Barlow-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86F084FC266DC32C00DD7AE4 /* Barlow-ExtraLightItalic.ttf */; };
@@ -88,6 +89,7 @@
 		86C63C5A266DCC9700D01445 /* YanoneKaffeesatz-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "YanoneKaffeesatz-Light.ttf"; path = "../../../../Downloads/Yanone_Kaffeesatz/static/YanoneKaffeesatz-Light.ttf"; sourceTree = "<group>"; };
 		86C63C5B266DCC9700D01445 /* YanoneKaffeesatz-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "YanoneKaffeesatz-Medium.ttf"; path = "../../../../Downloads/Yanone_Kaffeesatz/static/YanoneKaffeesatz-Medium.ttf"; sourceTree = "<group>"; };
 		86C90E452676C399001AC22F /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		86CA408A26788E7A0051B121 /* ProfileVIewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVIewController.swift; sourceTree = "<group>"; };
 		86F084FA266DC32C00DD7AE4 /* Barlow-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Barlow-MediumItalic.ttf"; path = "../../../../Downloads/Barlow (1)/Barlow-MediumItalic.ttf"; sourceTree = "<group>"; };
 		86F084FB266DC32C00DD7AE4 /* Barlow-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Barlow-SemiBold.ttf"; path = "../../../../Downloads/Barlow (1)/Barlow-SemiBold.ttf"; sourceTree = "<group>"; };
 		86F084FC266DC32C00DD7AE4 /* Barlow-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Barlow-ExtraLightItalic.ttf"; path = "../../../../Downloads/Barlow (1)/Barlow-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				863F7F0A25DB2A7A0076A22F /* DesignableView.swift */,
 				865682FF2641FD9A008CFB89 /* HomeViewController.swift */,
 				86C90E452676C399001AC22F /* MapViewController.swift */,
+				86CA408A26788E7A0051B121 /* ProfileVIewController.swift */,
 			);
 			path = NewProgram;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				86808DD42637910C00CDC335 /* LoginViewController.swift in Sources */,
 				86238BF225DA35B1009CB38F /* SceneDelegate.swift in Sources */,
 				865683002641FD9A008CFB89 /* HomeViewController.swift in Sources */,
+				86CA408B26788E7A0051B121 /* ProfileVIewController.swift in Sources */,
 				86C90E462676C399001AC22F /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
