@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>563927345850-odnjqp80jk1afjaal08tigutfnsbopto.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.563927345850-odnjqp80jk1afjaal08tigutfnsbopto</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAEYR9DqJzBfe9Iu4j6h900svcX9W4dTGc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>563927345850</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>Harry.NewProgram</string>
+	<key>PROJECT_ID</key>
+	<string>spectrcare</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spectrcare.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:563927345850:ios:68c82aab1d40832735f083</string>
+</dict>
+</plist>

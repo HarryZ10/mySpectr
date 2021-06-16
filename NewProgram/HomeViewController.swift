@@ -25,37 +25,43 @@ extension UIViewController {
 class HomeViewController: UIViewController {
     
     @IBOutlet var button: UIButton!
+    @IBOutlet var tempImageView: UIImageView!
+    private var image: UIImage?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
     }
     
+    
+    
     @IBAction func didTapButton()
     {
         let picker = UIImagePickerController()
         
         picker.sourceType = .camera
-//        picker.delegate = self
         present(picker, animated: true)
         
         
     }
-
     
-}
-
-extension ViewController: UIImagePickerControllerDelegate, UINavigationControllerDelegate {
-    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any])
+    {
         picker.dismiss(animated: true, completion: nil)
-    }
-    
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+
+        tempImageView.image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage
+        image = tempImageView.image!
         
-        picker.dismiss(animated: true, completion: nil)
-//        guard let image = info[UIImagePickerController.InfoKey.originalImage] as?
-//            UIImage else {
-//            return
-//        }
+        
+        performSegue(withIdentifier: "CameraToProfile", sender: self)
     }
+
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController)
+    {
+        picker.dismiss(animated: true, completion: nil)
+    }
+  
+ 
+
+    
 }

@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		20B72F16279B56B4ADB1111A /* Pods_NewProgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52273DFD7482CCC861818D92 /* Pods_NewProgram.framework */; };
 		86238BF025DA35B1009CB38F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86238BEF25DA35B1009CB38F /* AppDelegate.swift */; };
 		86238BF225DA35B1009CB38F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86238BF125DA35B1009CB38F /* SceneDelegate.swift */; };
 		86238BF425DA35B1009CB38F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86238BF325DA35B1009CB38F /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 		863F7F0B25DB2A7A0076A22F /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F7F0A25DB2A7A0076A22F /* DesignableView.swift */; };
 		865683002641FD9A008CFB89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865682FF2641FD9A008CFB89 /* HomeViewController.swift */; };
 		86808DD42637910C00CDC335 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86808DD32637910C00CDC335 /* LoginViewController.swift */; };
+		86939A4A2679BE89001E6737 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 86939A492679BE88001E6737 /* GoogleService-Info.plist */; };
 		86C63C5C266DCC9700D01445 /* YanoneKaffeesatz-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86C63C56266DCC9700D01445 /* YanoneKaffeesatz-ExtraLight.ttf */; };
 		86C63C5D266DCC9700D01445 /* YanoneKaffeesatz-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86C63C57266DCC9700D01445 /* YanoneKaffeesatz-Bold.ttf */; };
 		86C63C5E266DCC9700D01445 /* YanoneKaffeesatz-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86C63C58266DCC9700D01445 /* YanoneKaffeesatz-Regular.ttf */; };
@@ -66,6 +68,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		31BACCA1474046689AB214F9 /* Pods-NewProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewProgram.release.xcconfig"; path = "Target Support Files/Pods-NewProgram/Pods-NewProgram.release.xcconfig"; sourceTree = "<group>"; };
+		52273DFD7482CCC861818D92 /* Pods_NewProgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewProgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		86238BEC25DA35B1009CB38F /* NewProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86238BEF25DA35B1009CB38F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86238BF125DA35B1009CB38F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 		863F7F0A25DB2A7A0076A22F /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		865682FF2641FD9A008CFB89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		86808DD32637910C00CDC335 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
+		86939A492679BE88001E6737 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		86C63C56266DCC9700D01445 /* YanoneKaffeesatz-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "YanoneKaffeesatz-ExtraLight.ttf"; path = "../../../../Downloads/Yanone_Kaffeesatz/static/YanoneKaffeesatz-ExtraLight.ttf"; sourceTree = "<group>"; };
 		86C63C57266DCC9700D01445 /* YanoneKaffeesatz-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "YanoneKaffeesatz-Bold.ttf"; path = "../../../../Downloads/Yanone_Kaffeesatz/static/YanoneKaffeesatz-Bold.ttf"; sourceTree = "<group>"; };
 		86C63C58266DCC9700D01445 /* YanoneKaffeesatz-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "YanoneKaffeesatz-Regular.ttf"; path = "../../../../Downloads/Yanone_Kaffeesatz/static/YanoneKaffeesatz-Regular.ttf"; sourceTree = "<group>"; };
@@ -110,6 +115,7 @@
 		86F0850B266DC32D00DD7AE4 /* Barlow-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Barlow-BlackItalic.ttf"; path = "../../../../Downloads/Barlow (1)/Barlow-BlackItalic.ttf"; sourceTree = "<group>"; };
 		86F08521266DC33A00DD7AE4 /* Cedarville_Cursive (1).zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "Cedarville_Cursive (1).zip"; path = "../../../../Downloads/Cedarville_Cursive (1).zip"; sourceTree = "<group>"; };
 		86F08526266DC36A00DD7AE4 /* CedarvilleCursive-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CedarvilleCursive-Regular.ttf"; path = "../../../../Downloads/Cedarville_Cursive (1)/CedarvilleCursive-Regular.ttf"; sourceTree = "<group>"; };
+		8C461CFA7EB1A0226FD8BD04 /* Pods-NewProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewProgram.debug.xcconfig"; path = "Target Support Files/Pods-NewProgram/Pods-NewProgram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20B72F16279B56B4ADB1111A /* Pods_NewProgram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +144,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D09A70595C2DF7365300069 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C461CFA7EB1A0226FD8BD04 /* Pods-NewProgram.debug.xcconfig */,
+				31BACCA1474046689AB214F9 /* Pods-NewProgram.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		86238BE325DA35B1009CB38F = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +160,8 @@
 				86238C0525DA35B3009CB38F /* NewProgramTests */,
 				86238C1025DA35B3009CB38F /* NewProgramUITests */,
 				86238BED25DA35B1009CB38F /* Products */,
+				2D09A70595C2DF7365300069 /* Pods */,
+				E72687A290CD28E37E32227C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -160,6 +178,7 @@
 		86238BEE25DA35B1009CB38F /* NewProgram */ = {
 			isa = PBXGroup;
 			children = (
+				86939A492679BE88001E6737 /* GoogleService-Info.plist */,
 				86808DD32637910C00CDC335 /* LoginViewController.swift */,
 				86F08526266DC36A00DD7AE4 /* CedarvilleCursive-Regular.ttf */,
 				86238BEF25DA35B1009CB38F /* AppDelegate.swift */,
@@ -219,6 +238,14 @@
 			path = NewProgramUITests;
 			sourceTree = "<group>";
 		};
+		E72687A290CD28E37E32227C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52273DFD7482CCC861818D92 /* Pods_NewProgram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -226,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86238C1625DA35B3009CB38F /* Build configuration list for PBXNativeTarget "NewProgram" */;
 			buildPhases = (
+				445DDE2506907A15D42C1FF1 /* [CP] Check Pods Manifest.lock */,
 				86238BE825DA35B1009CB38F /* Sources */,
 				86238BE925DA35B1009CB38F /* Frameworks */,
 				86238BEA25DA35B1009CB38F /* Resources */,
+				C551ED03F024DF2BB6669043 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -340,6 +369,7 @@
 				86F08511266DC32D00DD7AE4 /* Barlow-Thin.ttf in Resources */,
 				86F08527266DC36A00DD7AE4 /* CedarvilleCursive-Regular.ttf in Resources */,
 				86F08514266DC32D00DD7AE4 /* Barlow-LightItalic.ttf in Resources */,
+				86939A4A2679BE89001E6737 /* GoogleService-Info.plist in Resources */,
 				86F08519266DC32D00DD7AE4 /* Barlow-ExtraBold.ttf in Resources */,
 				86F08513266DC32D00DD7AE4 /* Barlow-ThinItalic.ttf in Resources */,
 				86F0851A266DC32D00DD7AE4 /* Barlow-Black.ttf in Resources */,
@@ -370,6 +400,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		445DDE2506907A15D42C1FF1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewProgram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C551ED03F024DF2BB6669043 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		86238BE825DA35B1009CB38F /* Sources */ = {
@@ -556,6 +628,7 @@
 		};
 		86238C1725DA35B3009CB38F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C461CFA7EB1A0226FD8BD04 /* Pods-NewProgram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -574,6 +647,7 @@
 		};
 		86238C1825DA35B3009CB38F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31BACCA1474046689AB214F9 /* Pods-NewProgram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
