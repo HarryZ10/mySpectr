@@ -544,6 +544,7 @@
                                                 <state key="normal" title="Button" image="output-onlinepngtools (1)"/>
                                                 <connections>
                                                     <action selector="didTapButton" destination="ALG-PW-43c" eventType="touchUpInside" id="8pM-Rl-nEO"/>
+                                                    <segue destination="gT5-o3-Ywx" kind="show" identifier="CameraToProfile" id="xRN-9l-zBK"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S8T-D3-Y9M">
@@ -583,7 +584,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u1b-9j-M6e" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1063.0769230769231" y="890.75829383886253"/>
+            <point key="canvasLocation" x="-854" y="1201"/>
         </scene>
         <!--Map-->
         <scene sceneID="4cF-qV-ILF">
@@ -684,7 +685,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fOi-EM-nhO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-278.46153846153845" y="890.75829383886253"/>
+            <point key="canvasLocation" x="-1846" y="1201"/>
         </scene>
         <!--Profile Modal-->
         <scene sceneID="st5-iK-J5Y">
@@ -739,8 +740,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kfm-Y0-vSr">
                                 <rect key="frame" x="0.0" y="634" width="390" height="61"/>
                                 <color key="backgroundColor" systemColor="systemPinkColor"/>
-                                <fontDescription key="fontDescription" name="PingFangSC-Medium" family="PingFang SC" pointSize="35"/>
-                                <state key="normal" title="Log out">
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="35"/>
+                                <state key="normal" title="LOG OUT">
                                     <color key="titleColor" red="1" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -750,8 +751,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HiM-jG-bbx">
                                 <rect key="frame" x="0.0" y="695" width="390" height="61"/>
                                 <color key="backgroundColor" red="0.31684138499149661" green="0.10224343643707483" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" name="PingFangSC-Medium" family="PingFang SC" pointSize="35"/>
-                                <state key="normal" title="Settings">
+                                <fontDescription key="fontDescription" name="PingFangSC-Semibold" family="PingFang SC" pointSize="35"/>
+                                <state key="normal" title="SETTINGS">
                                     <color key="titleColor" red="1" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
@@ -776,15 +777,16 @@
                             <constraint firstItem="AaX-oP-yOc" firstAttribute="trailing" secondItem="qfl-yL-PFH" secondAttribute="trailing" constant="16" id="yLC-hH-xv5"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="2gJ-vb-RHj"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aem-65-IAd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="507.69230769230768" y="890.75829383886253"/>
+            <point key="canvasLocation" x="935" y="831"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="eFJ-eS-zQU"/>
-        <segue reference="PXf-8D-7lS"/>
+        <segue reference="xRN-9l-zBK"/>
+        <segue reference="IqP-1b-RQc"/>
         <segue reference="Wzu-PP-ONW"/>
     </inferredMetricsTieBreakers>
     <resources>

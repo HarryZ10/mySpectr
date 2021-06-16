@@ -10,12 +10,24 @@ import UIKit
 
 class ProfileViewController: UIViewController
 {
-    @IBOutlet var button: UIButton!
+//    @IBOutlet var imageView1: UIImageView!
+//    private var receivedImage1: UIImage?
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
         
+//
+//        imageView1.image = receivedImage1
+//        imageView1.center = self.view.center
+//        imageView1.contentMode = .scaleAspectFit
+//
     }
+    
+    
+    
+    
+    
+    
 }

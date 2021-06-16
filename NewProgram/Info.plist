@@ -57,6 +57,12 @@
 	<string>Please allow to see current location!</string>
 	<key>NSCameraUsageDescription</key>
 	<string>Please allow access to take a picure for your submission!</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>CFBundleDisplayName</key>
+	<string></string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Please allow access for the app to browse your photo library!</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
