@@ -33,6 +33,8 @@ and pinpoint houseless encampments or houseless people on the streets, ultimatel
 * [Swift 4](https://swift.org/documentation/)
 * [XCode 12](https://developer.apple.com/documentation/xcode/)
 * [Figma](https://help.figma.com/hc/en-us)
+* [Git](https://git-scm.com/doc)
+* [Github](https://docs.github.com/en)
 * [Procreate](https://procreate.art/handbook/procreate)
 * [Trello](https://help.trello.com/collection/691-trello-public-help-documentation)
 * [Zoom Video Communications](https://support.zoom.us/hc/en-us)
