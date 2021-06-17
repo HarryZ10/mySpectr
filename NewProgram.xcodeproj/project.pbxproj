@@ -16,6 +16,7 @@
 		86238BFC25DA35B3009CB38F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86238BFA25DA35B3009CB38F /* LaunchScreen.storyboard */; };
 		86238C0725DA35B3009CB38F /* NewProgramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86238C0625DA35B3009CB38F /* NewProgramTests.swift */; };
 		86238C1225DA35B3009CB38F /* NewProgramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86238C1125DA35B3009CB38F /* NewProgramUITests.swift */; };
+		862CFB1C267AEBE7003AFC2B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862CFB1B267AEBE7003AFC2B /* Constants.swift */; };
 		863F7F0B25DB2A7A0076A22F /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863F7F0A25DB2A7A0076A22F /* DesignableView.swift */; };
 		865683002641FD9A008CFB89 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865682FF2641FD9A008CFB89 /* HomeViewController.swift */; };
 		86808DD42637910C00CDC335 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86808DD32637910C00CDC335 /* LoginViewController.swift */; };
@@ -83,6 +84,7 @@
 		86238C0825DA35B3009CB38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86238C0D25DA35B3009CB38F /* NewProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86238C1125DA35B3009CB38F /* NewProgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProgramUITests.swift; sourceTree = "<group>"; };
+		862CFB1B267AEBE7003AFC2B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		863F7F0A25DB2A7A0076A22F /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		865682FF2641FD9A008CFB89 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		86808DD32637910C00CDC335 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../LoginViewController.swift; sourceTree = "<group>"; };
@@ -217,6 +219,7 @@
 				865682FF2641FD9A008CFB89 /* HomeViewController.swift */,
 				86C90E452676C399001AC22F /* MapViewController.swift */,
 				86CA408A26788E7A0051B121 /* ProfileVIewController.swift */,
+				862CFB1B267AEBE7003AFC2B /* Constants.swift */,
 			);
 			path = NewProgram;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 				86238BE925DA35B1009CB38F /* Frameworks */,
 				86238BEA25DA35B1009CB38F /* Resources */,
 				C551ED03F024DF2BB6669043 /* [CP] Embed Pods Frameworks */,
+				1073362A9611AF8BA20E2737 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -402,6 +406,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1073362A9611AF8BA20E2737 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		445DDE2506907A15D42C1FF1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -456,6 +477,7 @@
 				865683002641FD9A008CFB89 /* HomeViewController.swift in Sources */,
 				86CA408B26788E7A0051B121 /* ProfileVIewController.swift in Sources */,
 				86C90E462676C399001AC22F /* MapViewController.swift in Sources */,
+				862CFB1C267AEBE7003AFC2B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
