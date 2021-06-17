@@ -34,6 +34,9 @@ class LoginViewController: UIViewController {
             self.present(vc, animated: true, completion: nil)
             print("Presented")
         }
+        
+        GIDSignIn.sharedInstance().shouldFetchBasicProfile = true
+        
     }
     
 //    override func viewDidAppear(_ animated: Bool) {
