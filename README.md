@@ -26,14 +26,16 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-SpectrCare is where people can share resources and give back to the underserved and underrepresented community,
-and pinpoint houseless encampments or houseless people on the streets by taking a photo or a video with faces blurred. 
+SpectrCare takes you to mySpectrHome which is where people can share resources and give back to the underserved and underrepresented community,
+and pinpoint houseless encampments or houseless people on the streets, ultimately making them feel at home because they will know the community has their full support in regaining a quality life overall.
 
-### Built With
-* [Swift](https://swift.org/documentation/)
-* [XCode](https://developer.apple.com/documentation/xcode/)
+### Built With / Used
+* [Swift 4](https://swift.org/documentation/)
+* [XCode 12](https://developer.apple.com/documentation/xcode/)
 * [Figma](https://help.figma.com/hc/en-us)
-* [Custom Icons/Procreate](https://procreate.art/handbook/procreate)
+* [Procreate](https://procreate.art/handbook/procreate)
+* [Trello](https://help.trello.com/collection/691-trello-public-help-documentation)
+* [Zoom Video Communications](https://support.zoom.us/hc/en-us)
 
 
 <!-- CONTACT -->
