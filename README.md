@@ -44,7 +44,7 @@ and pinpoint houseless encampments or houseless people on the streets, ultimatel
 
 
 ### Graphic Design Tools
-#### All graphics are made and/or significantly altered by the developer.
+###### (All graphics are made and/or significantly altered by the developer.)
 
 * [Procreate](https://procreate.art/handbook/procreate)
 * [The Noun Project](https://thenounproject.com/)
@@ -74,3 +74,6 @@ and pinpoint houseless encampments or houseless people on the streets, ultimatel
     </td>
     </tr>  
 </table>
+
+
+All right, title and interest in and to Project SpectrCare will remain exclusively with individual entity, Harry Zhu. The Licensed Software ("SPECTRCARE") contains material that is protected by United States copyright and trade secret law, and by international treaty provisions. All rights not expressly granted to Licensee under this Agreement are expressly reserved by Licensor and its licensors. Licensee shall not modify, remove or destroy any proprietary markings or confidential legends placed upon or contained within the Licensed Software, the Documentation, or any related materials. All copyrights, patents, trade secrets, trademarks, service marks, trade names, moral rights and other intellectual property and proprietary rights in SPECTRCARE shall remain the sole and exclusive property of Licensor or its licensors, as applicable.
