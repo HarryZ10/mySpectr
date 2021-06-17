@@ -3,7 +3,7 @@
 <p align="center">
   <h3 align="center">SpectrCare, a scouter for the underserved</h3>
   <p align="center">
-    Developed by Harry Zhu, with the guidance of GIMM TAs and Schoology at Boise State University.
+    Developed by Harry Zhu, under the advice of GIMM TAs and Schoology at Boise State University.
     <br>
     <b>iOS app presented at the NorCal Regional STEM Showcase</b>
     <br>
