@@ -29,16 +29,30 @@
 SpectrCare takes you to mySpectrHome which is where people can share resources and give back to the underserved and underrepresented community,
 and pinpoint houseless encampments or houseless people on the streets, ultimately making them feel at home because they will know the community has their full support in regaining a quality life overall.
 
-### Built With / Used
+### Technologies Used
 * [Swift 4](https://swift.org/documentation/)
 * [XCode 12](https://developer.apple.com/documentation/xcode/)
 * [Figma](https://help.figma.com/hc/en-us)
 * [Git](https://git-scm.com/doc)
 * [Github](https://docs.github.com/en)
-* [Procreate](https://procreate.art/handbook/procreate)
-* [Trello](https://help.trello.com/collection/691-trello-public-help-documentation)
-* [Zoom Video Communications](https://support.zoom.us/hc/en-us)
 
+### Modules Used
+* [SwiftUI](https://developer.apple.com/documentation/swiftui/)
+* [GoogleSignIn](https://developers.google.com/identity/sign-in/ios)
+* [CocoaPods](https://guides.cocoapods.org/)
+* [Firebase](https://firebase.google.com/docs)
+
+
+### Graphic Design Tools
+#### All graphics are made and/or significantly altered by the developer.
+
+* [Procreate](https://procreate.art/handbook/procreate)
+* [The Noun Project](https://thenounproject.com/)
+
+
+### Project Management Tools Used
+* [Zoom Video Communications](https://support.zoom.us/hc/en-us)
+* [Trello](https://help.trello.com/collection/691-trello-public-help-documentation)
 
 <!-- CONTACT -->
 ### Contact Me
