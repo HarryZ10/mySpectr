@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20B72F16279B56B4ADB1111A /* Pods_NewProgram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52273DFD7482CCC861818D92 /* Pods_NewProgram.framework */; };
+		849FEC60316B7BC8936CAF0F /* Pods_mySpectrApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC41673E4FBCB130F22E688 /* Pods_mySpectrApp.framework */; };
 		86238BF025DA35B1009CB38F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86238BEF25DA35B1009CB38F /* AppDelegate.swift */; };
 		86238BF225DA35B1009CB38F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86238BF125DA35B1009CB38F /* SceneDelegate.swift */; };
 		86238BF425DA35B1009CB38F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86238BF325DA35B1009CB38F /* ViewController.swift */; };
@@ -70,8 +70,8 @@
 
 /* Begin PBXFileReference section */
 		31BACCA1474046689AB214F9 /* Pods-NewProgram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewProgram.release.xcconfig"; path = "Target Support Files/Pods-NewProgram/Pods-NewProgram.release.xcconfig"; sourceTree = "<group>"; };
-		52273DFD7482CCC861818D92 /* Pods_NewProgram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewProgram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		86238BEC25DA35B1009CB38F /* NewProgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewProgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC41673E4FBCB130F22E688 /* Pods_mySpectrApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySpectrApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86238BEC25DA35B1009CB38F /* mySpectrApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySpectrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86238BEF25DA35B1009CB38F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86238BF125DA35B1009CB38F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		86238BF325DA35B1009CB38F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,10 +79,10 @@
 		86238BF825DA35B3009CB38F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86238BFB25DA35B3009CB38F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86238BFD25DA35B3009CB38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86238C0225DA35B3009CB38F /* NewProgramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewProgramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86238C0225DA35B3009CB38F /* mySpectrAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySpectrAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86238C0625DA35B3009CB38F /* NewProgramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProgramTests.swift; sourceTree = "<group>"; };
 		86238C0825DA35B3009CB38F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		86238C0D25DA35B3009CB38F /* NewProgramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewProgramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86238C0D25DA35B3009CB38F /* mySpectrAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySpectrAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86238C1125DA35B3009CB38F /* NewProgramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewProgramUITests.swift; sourceTree = "<group>"; };
 		862CFB1B267AEBE7003AFC2B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		863F7F0A25DB2A7A0076A22F /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
@@ -118,6 +118,8 @@
 		86F08521266DC33A00DD7AE4 /* Cedarville_Cursive (1).zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "Cedarville_Cursive (1).zip"; path = "../../../../Downloads/Cedarville_Cursive (1).zip"; sourceTree = "<group>"; };
 		86F08526266DC36A00DD7AE4 /* CedarvilleCursive-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "CedarvilleCursive-Regular.ttf"; path = "../../../../Downloads/Cedarville_Cursive (1)/CedarvilleCursive-Regular.ttf"; sourceTree = "<group>"; };
 		8C461CFA7EB1A0226FD8BD04 /* Pods-NewProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewProgram.debug.xcconfig"; path = "Target Support Files/Pods-NewProgram/Pods-NewProgram.debug.xcconfig"; sourceTree = "<group>"; };
+		8F414C4DD8F90429FA9B48D6 /* Pods-mySpectrApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySpectrApp.debug.xcconfig"; path = "Target Support Files/Pods-mySpectrApp/Pods-mySpectrApp.debug.xcconfig"; sourceTree = "<group>"; };
+		9169463403BD0EFD137F002E /* Pods-mySpectrApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySpectrApp.release.xcconfig"; path = "Target Support Files/Pods-mySpectrApp/Pods-mySpectrApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20B72F16279B56B4ADB1111A /* Pods_NewProgram.framework in Frameworks */,
+				849FEC60316B7BC8936CAF0F /* Pods_mySpectrApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +153,8 @@
 			children = (
 				8C461CFA7EB1A0226FD8BD04 /* Pods-NewProgram.debug.xcconfig */,
 				31BACCA1474046689AB214F9 /* Pods-NewProgram.release.xcconfig */,
+				8F414C4DD8F90429FA9B48D6 /* Pods-mySpectrApp.debug.xcconfig */,
+				9169463403BD0EFD137F002E /* Pods-mySpectrApp.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -158,7 +162,7 @@
 		86238BE325DA35B1009CB38F = {
 			isa = PBXGroup;
 			children = (
-				86238BEE25DA35B1009CB38F /* NewProgram */,
+				86238BEE25DA35B1009CB38F /* mySpectrApp */,
 				86238C0525DA35B3009CB38F /* NewProgramTests */,
 				86238C1025DA35B3009CB38F /* NewProgramUITests */,
 				86238BED25DA35B1009CB38F /* Products */,
@@ -170,14 +174,14 @@
 		86238BED25DA35B1009CB38F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				86238BEC25DA35B1009CB38F /* NewProgram.app */,
-				86238C0225DA35B3009CB38F /* NewProgramTests.xctest */,
-				86238C0D25DA35B3009CB38F /* NewProgramUITests.xctest */,
+				86238BEC25DA35B1009CB38F /* mySpectrApp.app */,
+				86238C0225DA35B3009CB38F /* mySpectrAppTests.xctest */,
+				86238C0D25DA35B3009CB38F /* mySpectrAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		86238BEE25DA35B1009CB38F /* NewProgram */ = {
+		86238BEE25DA35B1009CB38F /* mySpectrApp */ = {
 			isa = PBXGroup;
 			children = (
 				86939A492679BE88001E6737 /* GoogleService-Info.plist */,
@@ -221,7 +225,7 @@
 				86CA408A26788E7A0051B121 /* ProfileVIewController.swift */,
 				862CFB1B267AEBE7003AFC2B /* Constants.swift */,
 			);
-			path = NewProgram;
+			path = mySpectrApp;
 			sourceTree = "<group>";
 		};
 		86238C0525DA35B3009CB38F /* NewProgramTests */ = {
@@ -244,7 +248,7 @@
 		E72687A290CD28E37E32227C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				52273DFD7482CCC861818D92 /* Pods_NewProgram.framework */,
+				7EC41673E4FBCB130F22E688 /* Pods_mySpectrApp.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -252,9 +256,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		86238BEB25DA35B1009CB38F /* NewProgram */ = {
+		86238BEB25DA35B1009CB38F /* mySpectrApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86238C1625DA35B3009CB38F /* Build configuration list for PBXNativeTarget "NewProgram" */;
+			buildConfigurationList = 86238C1625DA35B3009CB38F /* Build configuration list for PBXNativeTarget "mySpectrApp" */;
 			buildPhases = (
 				445DDE2506907A15D42C1FF1 /* [CP] Check Pods Manifest.lock */,
 				86238BE825DA35B1009CB38F /* Sources */,
@@ -267,14 +271,14 @@
 			);
 			dependencies = (
 			);
-			name = NewProgram;
+			name = mySpectrApp;
 			productName = NewProgram;
-			productReference = 86238BEC25DA35B1009CB38F /* NewProgram.app */;
+			productReference = 86238BEC25DA35B1009CB38F /* mySpectrApp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		86238C0125DA35B3009CB38F /* NewProgramTests */ = {
+		86238C0125DA35B3009CB38F /* mySpectrAppTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86238C1925DA35B3009CB38F /* Build configuration list for PBXNativeTarget "NewProgramTests" */;
+			buildConfigurationList = 86238C1925DA35B3009CB38F /* Build configuration list for PBXNativeTarget "mySpectrAppTests" */;
 			buildPhases = (
 				86238BFE25DA35B3009CB38F /* Sources */,
 				86238BFF25DA35B3009CB38F /* Frameworks */,
@@ -285,14 +289,14 @@
 			dependencies = (
 				86238C0425DA35B3009CB38F /* PBXTargetDependency */,
 			);
-			name = NewProgramTests;
+			name = mySpectrAppTests;
 			productName = NewProgramTests;
-			productReference = 86238C0225DA35B3009CB38F /* NewProgramTests.xctest */;
+			productReference = 86238C0225DA35B3009CB38F /* mySpectrAppTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		86238C0C25DA35B3009CB38F /* NewProgramUITests */ = {
+		86238C0C25DA35B3009CB38F /* mySpectrAppUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 86238C1C25DA35B3009CB38F /* Build configuration list for PBXNativeTarget "NewProgramUITests" */;
+			buildConfigurationList = 86238C1C25DA35B3009CB38F /* Build configuration list for PBXNativeTarget "mySpectrAppUITests" */;
 			buildPhases = (
 				86238C0925DA35B3009CB38F /* Sources */,
 				86238C0A25DA35B3009CB38F /* Frameworks */,
@@ -303,9 +307,9 @@
 			dependencies = (
 				86238C0F25DA35B3009CB38F /* PBXTargetDependency */,
 			);
-			name = NewProgramUITests;
+			name = mySpectrAppUITests;
 			productName = NewProgramUITests;
-			productReference = 86238C0D25DA35B3009CB38F /* NewProgramUITests.xctest */;
+			productReference = 86238C0D25DA35B3009CB38F /* mySpectrAppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -331,7 +335,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 86238BE725DA35B1009CB38F /* Build configuration list for PBXProject "NewProgram" */;
+			buildConfigurationList = 86238BE725DA35B1009CB38F /* Build configuration list for PBXProject "mySpectrApp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -344,9 +348,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				86238BEB25DA35B1009CB38F /* NewProgram */,
-				86238C0125DA35B3009CB38F /* NewProgramTests */,
-				86238C0C25DA35B3009CB38F /* NewProgramUITests */,
+				86238BEB25DA35B1009CB38F /* mySpectrApp */,
+				86238C0125DA35B3009CB38F /* mySpectrAppTests */,
+				86238C0C25DA35B3009CB38F /* mySpectrAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -412,15 +416,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mySpectrApp/Pods-mySpectrApp-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mySpectrApp/Pods-mySpectrApp-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mySpectrApp/Pods-mySpectrApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		445DDE2506907A15D42C1FF1 /* [CP] Check Pods Manifest.lock */ = {
@@ -438,7 +442,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-NewProgram-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-mySpectrApp-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -451,15 +455,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mySpectrApp/Pods-mySpectrApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-mySpectrApp/Pods-mySpectrApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NewProgram/Pods-NewProgram-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mySpectrApp/Pods-mySpectrApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -502,12 +506,12 @@
 /* Begin PBXTargetDependency section */
 		86238C0425DA35B3009CB38F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 86238BEB25DA35B1009CB38F /* NewProgram */;
+			target = 86238BEB25DA35B1009CB38F /* mySpectrApp */;
 			targetProxy = 86238C0325DA35B3009CB38F /* PBXContainerItemProxy */;
 		};
 		86238C0F25DA35B3009CB38F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 86238BEB25DA35B1009CB38F /* NewProgram */;
+			target = 86238BEB25DA35B1009CB38F /* mySpectrApp */;
 			targetProxy = 86238C0E25DA35B3009CB38F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -650,7 +654,7 @@
 		};
 		86238C1725DA35B3009CB38F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C461CFA7EB1A0226FD8BD04 /* Pods-NewProgram.debug.xcconfig */;
+			baseConfigurationReference = 8F414C4DD8F90429FA9B48D6 /* Pods-mySpectrApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -669,7 +673,7 @@
 		};
 		86238C1825DA35B3009CB38F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 31BACCA1474046689AB214F9 /* Pods-NewProgram.release.xcconfig */;
+			baseConfigurationReference = 9169463403BD0EFD137F002E /* Pods-mySpectrApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -704,7 +708,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewProgram.app/NewProgram";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySpectrApp.app/mySpectrApp";
 			};
 			name = Debug;
 		};
@@ -726,7 +730,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NewProgram.app/NewProgram";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySpectrApp.app/mySpectrApp";
 			};
 			name = Release;
 		};
@@ -773,7 +777,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		86238BE725DA35B1009CB38F /* Build configuration list for PBXProject "NewProgram" */ = {
+		86238BE725DA35B1009CB38F /* Build configuration list for PBXProject "mySpectrApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86238C1425DA35B3009CB38F /* Debug */,
@@ -782,7 +786,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86238C1625DA35B3009CB38F /* Build configuration list for PBXNativeTarget "NewProgram" */ = {
+		86238C1625DA35B3009CB38F /* Build configuration list for PBXNativeTarget "mySpectrApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86238C1725DA35B3009CB38F /* Debug */,
@@ -791,7 +795,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86238C1925DA35B3009CB38F /* Build configuration list for PBXNativeTarget "NewProgramTests" */ = {
+		86238C1925DA35B3009CB38F /* Build configuration list for PBXNativeTarget "mySpectrAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86238C1A25DA35B3009CB38F /* Debug */,
@@ -800,7 +804,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		86238C1C25DA35B3009CB38F /* Build configuration list for PBXNativeTarget "NewProgramUITests" */ = {
+		86238C1C25DA35B3009CB38F /* Build configuration list for PBXNativeTarget "mySpectrAppUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				86238C1D25DA35B3009CB38F /* Debug */,

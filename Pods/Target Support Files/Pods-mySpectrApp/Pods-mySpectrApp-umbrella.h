@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_NewProgramVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_NewProgramVersionString[];
+FOUNDATION_EXPORT double Pods_mySpectrAppVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_mySpectrAppVersionString[];
 

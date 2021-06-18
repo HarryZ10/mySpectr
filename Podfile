@@ -1,6 +1,6 @@
 # platform :ios, '9.0'
 
-target 'NewProgram' do
+target 'mySpectrApp' do
   use_frameworks!
 
 pod 'Firebase/Core'
