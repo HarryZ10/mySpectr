@@ -8,9 +8,9 @@
     <b>iOS app presented at the NorCal Regional STEM Showcase</b>
     <br>
     <br>
-  <a href="https://github.com/kristofgazso/pickabox.space/issues">Report Bug</a>
+  <a href="https://github.com/HarryZ10/mySpectr/issues">Report Bug</a>
   <br>
-  <a href="https://github.com/kristofgazso/pickabox.space/issues">Request Feature</a>
+  <a href="https://github.com/HarryZ10/mySpectr/issues">Request Feature</a>
   </p>
 </p>
 
@@ -20,7 +20,7 @@
 
 * [About the Project](#about-the-project)
   * [Built With](#Technologies-Used)
-* [Contact Us](#contact-me)
+* [Contact Me](#contact-me)
 
 
 <!-- ABOUT THE PROJECT -->
