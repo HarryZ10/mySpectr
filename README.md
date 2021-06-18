@@ -19,8 +19,8 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Contact Us](#contact-us)
+  * [Built With](#Technologies-Used)
+* [Contact Us](#contact-me)
 
 
 <!-- ABOUT THE PROJECT -->
